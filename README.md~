@@ -1,0 +1,3 @@
+# Thread_Safe Malloc
+
+This reposity contains two implementations of thread-safe malloc and free functions. The first version uses a lock based synchronization to prevent race conditions while the second version uses Thread-Local Storage to prevent race conditions. The repository contains a Makefile to compile the C file into a shared library. 
